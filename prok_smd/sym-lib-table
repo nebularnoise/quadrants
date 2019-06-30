@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name teensy)(type Legacy)(uri F:/code/Prok-Drums-Hardware/external/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name reg1117)(type Legacy)(uri F:/code/Prok-Drums-Hardware/prok_smd/reg1117.lib)(options "")(descr ""))
+  (lib (name 4ms-mech)(type Legacy)(uri F:/code/Prok-Drums-Hardware/external/4ms-kicad-lib/lib-sch/4ms-mech.lib)(options "")(descr ""))
+)

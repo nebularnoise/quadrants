@@ -1,0 +1,9 @@
+[submodule "external/teensy_library"]
+	path = external/teensy_library
+	url = git@github.com:XenGi/teensy_library.git
+[submodule "external/teensy.pretty"]
+	path = external/teensy.pretty
+	url = git@github.com:XenGi/teensy.pretty.git
+[submodule "external/4ms-kicad-lib"]
+	path = external/4ms-kicad-lib
+	url = git@github.com:4ms/4ms-kicad-lib.git
