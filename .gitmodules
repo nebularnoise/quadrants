@@ -7,3 +7,6 @@
 [submodule "external/4ms-kicad-lib"]
 	path = external/4ms-kicad-lib
 	url = git@github.com:4ms/4ms-kicad-lib.git
+[submodule "external/Panelization.pretty"]
+	path = external/Panelization.pretty
+	url = git@github.com:madworm/Panelization.pretty.git

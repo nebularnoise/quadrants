@@ -783,7 +783,7 @@ L reg1117:REG1117 U4
 U 1 1 5D1FF7BF
 P 3850 5750
 F 0 "U4" H 3875 5965 50  0000 C CNN
-F 1 "REG1117" H 3875 5874 50  0000 C CNN
+F 1 "REG1117" H 3800 5850 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 3850 5750 50  0001 C CNN
 F 3 "" H 3850 5750 50  0001 C CNN
 	1    3850 5750
@@ -935,28 +935,6 @@ Connection ~ 5050 6300
 Connection ~ 5550 6500
 Connection ~ 5550 6300
 $Comp
-L Connector:Conn_01x04_Female J11
-U 1 1 5D1980FD
-P 5000 7350
-F 0 "J11" H 5027 7326 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 5027 7235 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5000 7350 50  0001 C CNN
-F 3 "~" H 5000 7350 50  0001 C CNN
-	1    5000 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J10
-U 1 1 5D19814F
-P 4400 7450
-F 0 "J10" H 4294 7025 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 4294 7116 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4400 7450 50  0001 C CNN
-F 3 "~" H 4400 7450 50  0001 C CNN
-	1    4400 7450
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0135
 U 1 1 5D19822F
 P 4700 7550
@@ -971,13 +949,9 @@ Wire Wire Line
 	4600 7550 4700 7550
 Connection ~ 4700 7550
 Wire Wire Line
-	4700 7550 4800 7550
+	4700 7550 4750 7550
 Wire Wire Line
-	4800 7450 4600 7450
-Wire Wire Line
-	4600 7350 4800 7350
-Wire Wire Line
-	4800 7250 4700 7250
+	4600 7350 4750 7350
 Wire Wire Line
 	4700 7250 4700 7550
 Connection ~ 4700 7250
@@ -997,12 +971,12 @@ $EndComp
 $Comp
 L power:-12V #PWR0136
 U 1 1 5D1B34A3
-P 3000 7350
-F 0 "#PWR0136" H 3000 7450 50  0001 C CNN
-F 1 "-12V" H 3015 7523 50  0000 C CNN
-F 2 "" H 3000 7350 50  0001 C CNN
-F 3 "" H 3000 7350 50  0001 C CNN
-	1    3000 7350
+P 3000 7550
+F 0 "#PWR0136" H 3000 7650 50  0001 C CNN
+F 1 "-12V" H 3015 7723 50  0000 C CNN
+F 2 "" H 3000 7550 50  0001 C CNN
+F 3 "" H 3000 7550 50  0001 C CNN
+	1    3000 7550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1030,12 +1004,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0139
 U 1 1 5D1B3758
-P 3000 7550
-F 0 "#PWR0139" H 3000 7400 50  0001 C CNN
-F 1 "+5V" V 3015 7678 50  0000 L CNN
-F 2 "" H 3000 7550 50  0001 C CNN
-F 3 "" H 3000 7550 50  0001 C CNN
-	1    3000 7550
+P 3000 7350
+F 0 "#PWR0139" H 3000 7200 50  0001 C CNN
+F 1 "+5V" V 3015 7478 50  0000 L CNN
+F 2 "" H 3000 7350 50  0001 C CNN
+F 3 "" H 3000 7350 50  0001 C CNN
+	1    3000 7350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1059,4 +1033,68 @@ Wire Wire Line
 	3100 7450 3000 7450
 Wire Wire Line
 	3000 7550 3100 7550
+Text GLabel 10000 6000 0    50   Input ~ 0
+REG_HEAT
+NoConn ~ 10000 6000
+$Comp
+L Mechanical:Heatsink_Pad HS1
+U 1 1 5D1FCE37
+P 4200 5600
+F 0 "HS1" V 4153 5729 50  0000 L CNN
+F 1 "Heatsink_Pad" V 4244 5729 50  0000 L CNN
+F 2 "" H 4212 5550 50  0001 C CNN
+F 3 "~" H 4212 5550 50  0001 C CNN
+	1    4200 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 5600 4050 5600
+$Comp
+L Connector:Conn_01x02_Female J13
+U 1 1 5D2044FC
+P 4950 7250
+F 0 "J13" H 4977 7226 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 4977 7135 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4950 7250 50  0001 C CNN
+F 3 "~" H 4950 7250 50  0001 C CNN
+	1    4950 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J14
+U 1 1 5D20455E
+P 4950 7450
+F 0 "J14" H 4977 7426 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 4977 7335 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4950 7450 50  0001 C CNN
+F 3 "~" H 4950 7450 50  0001 C CNN
+	1    4950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J10
+U 1 1 5D2045BC
+P 4400 7350
+F 0 "J10" H 4294 7025 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 4294 7116 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4400 7350 50  0001 C CNN
+F 3 "~" H 4400 7350 50  0001 C CNN
+	1    4400 7350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J11
+U 1 1 5D204674
+P 4400 7550
+F 0 "J11" H 4294 7225 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 4294 7316 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4400 7550 50  0001 C CNN
+F 3 "~" H 4400 7550 50  0001 C CNN
+	1    4400 7550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 7250 4700 7250
+Wire Wire Line
+	4750 7450 4600 7450
 $EndSCHEMATC
