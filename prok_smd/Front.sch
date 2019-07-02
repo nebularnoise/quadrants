@@ -328,7 +328,7 @@ F 1 "50k" H 1280 2705 50  0000 R CNN
 F 2 "4ms-footprints:POT-9MM-ALPHA" H 1350 2750 50  0001 C CNN
 F 3 "~" H 1350 2750 50  0001 C CNN
 	1    1350 2750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0128
@@ -369,7 +369,7 @@ F 1 "50k" H 1330 4205 50  0000 R CNN
 F 2 "4ms-footprints:POT-9MM-ALPHA" H 1400 4250 50  0001 C CNN
 F 3 "~" H 1400 4250 50  0001 C CNN
 	1    1400 4250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0130
