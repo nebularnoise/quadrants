@@ -951,9 +951,7 @@ Connection ~ 4700 7550
 Wire Wire Line
 	4700 7550 4750 7550
 Wire Wire Line
-	4600 7350 4750 7350
-Wire Wire Line
-	4700 7250 4700 7550
+	4700 7250 4700 7350
 Connection ~ 4700 7250
 Wire Wire Line
 	4700 7250 4600 7250
@@ -1096,5 +1094,17 @@ $EndComp
 Wire Wire Line
 	4750 7250 4700 7250
 Wire Wire Line
-	4750 7450 4600 7450
+	4600 7350 4700 7350
+Connection ~ 4700 7350
+Wire Wire Line
+	4700 7350 4700 7450
+Wire Wire Line
+	4700 7350 4750 7350
+Wire Wire Line
+	4600 7450 4700 7450
+Connection ~ 4700 7450
+Wire Wire Line
+	4700 7450 4700 7550
+Wire Wire Line
+	4700 7450 4750 7450
 $EndSCHEMATC

@@ -646,13 +646,9 @@ Connection ~ 4350 7250
 Wire Wire Line
 	4350 7250 4450 7250
 Wire Wire Line
-	4450 7150 4250 7150
-Wire Wire Line
-	4250 7050 4450 7050
-Wire Wire Line
 	4450 6950 4350 6950
 Wire Wire Line
-	4350 6950 4350 7250
+	4350 6950 4350 7050
 Connection ~ 4350 6950
 Wire Wire Line
 	4350 6950 4250 6950
@@ -786,4 +782,18 @@ F 3 "~" H 4650 7250 50  0001 C CNN
 	1    4650 7250
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4250 7050 4350 7050
+Connection ~ 4350 7050
+Wire Wire Line
+	4350 7050 4350 7150
+Wire Wire Line
+	4350 7050 4450 7050
+Wire Wire Line
+	4250 7150 4350 7150
+Connection ~ 4350 7150
+Wire Wire Line
+	4350 7150 4350 7250
+Wire Wire Line
+	4350 7150 4450 7150
 $EndSCHEMATC
