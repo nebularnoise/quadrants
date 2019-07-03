@@ -1976,6 +1976,11 @@
       (scale (xyz 393 393 393))
       (rotate (xyz 0 0 -90))
     )
+    (model "${KIPRJMOD}/3d_models/PJ301M-12 Thonkiconn v0.2.stp"
+      (offset (xyz -1 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module prok_smd:PJ301M-12 locked (layer F.Cu) (tedit 5D1BD209) (tstamp 5DAC5832)
@@ -2004,6 +2009,11 @@
     (model ${GDOC}/_lib/packages3d/PJ301M-12.WRL
       (offset (xyz -0.8889999866485596 0.4063999938964844 0))
       (scale (xyz 393 393 393))
+      (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/3d_models/PJ301M-12 Thonkiconn v0.2.stp"
+      (offset (xyz -1 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
@@ -2036,6 +2046,11 @@
       (scale (xyz 393 393 393))
       (rotate (xyz 0 0 -90))
     )
+    (model "${KIPRJMOD}/3d_models/PJ301M-12 Thonkiconn v0.2.stp"
+      (offset (xyz -1 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module prok_smd:PJ301M-12 locked (layer F.Cu) (tedit 5D1BD1F0) (tstamp 5DAC584E)
@@ -2064,6 +2079,11 @@
     (model ${GDOC}/_lib/packages3d/PJ301M-12.WRL
       (offset (xyz -0.8889999866485596 0.4063999938964844 0))
       (scale (xyz 393 393 393))
+      (rotate (xyz 0 0 -90))
+    )
+    (model "${KIPRJMOD}/3d_models/PJ301M-12 Thonkiconn v0.2.stp"
+      (offset (xyz -1 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
     )
   )
