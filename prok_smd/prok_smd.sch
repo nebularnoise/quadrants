@@ -186,10 +186,10 @@ NoConn ~ 4500 1500
 NoConn ~ 4500 1600
 NoConn ~ 4500 1700
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J2
+L Connector_Generic:Conn_02x03_Odd_Even EXPAND1
 U 1 1 5D182574
 P 8150 1000
-F 0 "J2" H 8200 1317 50  0000 C CNN
+F 0 "EXPAND1" H 8200 1317 50  0000 C CNN
 F 1 "EXPAND" H 8200 1226 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8150 1000 50  0001 C CNN
 F 3 "~" H 8150 1000 50  0001 C CNN
@@ -804,118 +804,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 5850 3400 5850
 Connection ~ 3400 5850
-Text GLabel 9300 1700 0    50   Input ~ 0
-MISO
-Text GLabel 9300 1800 0    50   Input ~ 0
-LED_RESET
-Text GLabel 9300 1900 0    50   Input ~ 0
-SS
-Text GLabel 9300 2000 0    50   Input ~ 0
-RESET_CV
-Text GLabel 9300 2100 0    50   Input ~ 0
-RESET_SW
-Text GLabel 9300 2200 0    50   Input ~ 0
-MOSI
-Text GLabel 9300 2300 0    50   Input ~ 0
-LED_4
-Text GLabel 9300 2400 0    50   Input ~ 0
-LED_3
-Text GLabel 9300 2500 0    50   Input ~ 0
-LED_2
-Text GLabel 9300 2600 0    50   Input ~ 0
-LED_1
-$Comp
-L power:GND #PWR0119
-U 1 1 5D20EBAB
-P 9300 2700
-F 0 "#PWR0119" H 9300 2450 50  0001 C CNN
-F 1 "GND" V 9305 2572 50  0000 R CNN
-F 2 "" H 9300 2700 50  0001 C CNN
-F 3 "" H 9300 2700 50  0001 C CNN
-	1    9300 2700
-	0    1    1    0   
-$EndComp
-Text GLabel 9300 3050 0    50   Input ~ 0
-TIME_CV
-Text GLabel 9300 3150 0    50   Input ~ 0
-CHANNEL_CV
-Text GLabel 9300 3250 0    50   Input ~ 0
-AUDIO_OUT
-$Comp
-L power:+3.3V #PWR0120
-U 1 1 5D20ED65
-P 9300 3350
-F 0 "#PWR0120" H 9300 3200 50  0001 C CNN
-F 1 "+3.3V" V 9315 3478 50  0000 L CNN
-F 2 "" H 9300 3350 50  0001 C CNN
-F 3 "" H 9300 3350 50  0001 C CNN
-	1    9300 3350
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9300 3450 0    50   Input ~ 0
-SCLK
-Text GLabel 9300 3550 0    50   Input ~ 0
-TIME_POT
-Text GLabel 9300 3650 0    50   Input ~ 0
-CHANNEL_POT
-$Comp
-L Connector_Generic:Conn_01x11 J3
-U 1 1 5D20F0C8
-P 9650 2200
-F 0 "J3" H 9569 1475 50  0000 C CNN
-F 1 "Conn_01x11" H 9569 1566 50  0000 C CNN
-F 2 "" H 9650 2200 50  0001 C CNN
-F 3 "~" H 9650 2200 50  0001 C CNN
-	1    9650 2200
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9450 1700 9300 1700
-Wire Wire Line
-	9300 1800 9450 1800
-Wire Wire Line
-	9450 1900 9300 1900
-Wire Wire Line
-	9300 2000 9450 2000
-Wire Wire Line
-	9450 2100 9300 2100
-Wire Wire Line
-	9300 2200 9450 2200
-Wire Wire Line
-	9450 2300 9300 2300
-Wire Wire Line
-	9300 2400 9450 2400
-Wire Wire Line
-	9450 2500 9300 2500
-Wire Wire Line
-	9300 2600 9450 2600
-Wire Wire Line
-	9450 2700 9300 2700
-$Comp
-L Connector_Generic:Conn_01x07 J4
-U 1 1 5D23CAC6
-P 9650 3350
-F 0 "J4" H 9569 2825 50  0000 C CNN
-F 1 "Conn_01x07" H 9569 2916 50  0000 C CNN
-F 2 "" H 9650 3350 50  0001 C CNN
-F 3 "~" H 9650 3350 50  0001 C CNN
-	1    9650 3350
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9300 3050 9450 3050
-Wire Wire Line
-	9450 3150 9300 3150
-Wire Wire Line
-	9300 3250 9450 3250
-Wire Wire Line
-	9450 3350 9300 3350
-Wire Wire Line
-	9300 3450 9450 3450
-Wire Wire Line
-	9450 3550 9300 3550
-Wire Wire Line
-	9300 3650 9450 3650
 $Sheet
 S 1400 1300 1250 1300
 U 5D2626DC
@@ -946,11 +834,6 @@ F 3 "" H 4700 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 7550 4700 7550
-Connection ~ 4700 7550
-Wire Wire Line
-	4700 7550 4750 7550
-Wire Wire Line
 	4700 7250 4700 7350
 Connection ~ 4700 7250
 Wire Wire Line
@@ -961,7 +844,7 @@ U 1 1 5D1B33BF
 P 3300 7350
 F 0 "J9" H 3327 7376 50  0000 L CNN
 F 1 "Conn_01x05_Female" H 3327 7285 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 3300 7350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left" H 3300 7350 50  0001 C CNN
 F 3 "~" H 3300 7350 50  0001 C CNN
 	1    3300 7350
 	1    0    0    -1  
@@ -1031,9 +914,6 @@ Wire Wire Line
 	3100 7450 3000 7450
 Wire Wire Line
 	3000 7550 3100 7550
-Text GLabel 10000 6000 0    50   Input ~ 0
-REG_HEAT
-NoConn ~ 10000 6000
 $Comp
 L Mechanical:Heatsink_Pad HS1
 U 1 1 5D1FCE37
@@ -1047,64 +927,24 @@ F 3 "~" H 4212 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 5600 4050 5600
-$Comp
-L Connector:Conn_01x02_Female J13
-U 1 1 5D2044FC
-P 4950 7250
-F 0 "J13" H 4977 7226 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4977 7135 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4950 7250 50  0001 C CNN
-F 3 "~" H 4950 7250 50  0001 C CNN
-	1    4950 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J14
-U 1 1 5D20455E
-P 4950 7450
-F 0 "J14" H 4977 7426 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4977 7335 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4950 7450 50  0001 C CNN
-F 3 "~" H 4950 7450 50  0001 C CNN
-	1    4950 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J10
-U 1 1 5D2045BC
-P 4400 7350
-F 0 "J10" H 4294 7025 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 4294 7116 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4400 7350 50  0001 C CNN
-F 3 "~" H 4400 7350 50  0001 C CNN
-	1    4400 7350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J11
-U 1 1 5D204674
-P 4400 7550
-F 0 "J11" H 4294 7225 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 4294 7316 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4400 7550 50  0001 C CNN
-F 3 "~" H 4400 7550 50  0001 C CNN
-	1    4400 7550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4750 7250 4700 7250
 Wire Wire Line
 	4600 7350 4700 7350
 Connection ~ 4700 7350
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5D1D79FB
+P 4400 7250
+F 0 "J2" H 4294 6925 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 4294 7016 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 4400 7250 50  0001 C CNN
+F 3 "~" H 4400 7250 50  0001 C CNN
+	1    4400 7250
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	4700 7350 4700 7450
+	4700 7250 4700 7150
 Wire Wire Line
-	4700 7350 4750 7350
+	4600 7150 4700 7150
 Wire Wire Line
-	4600 7450 4700 7450
-Connection ~ 4700 7450
-Wire Wire Line
-	4700 7450 4700 7550
-Wire Wire Line
-	4700 7450 4750 7450
+	4700 7350 4700 7550
 $EndSCHEMATC
