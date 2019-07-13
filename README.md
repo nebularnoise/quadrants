@@ -31,3 +31,8 @@ To quote the official Prok Drums page:
 - [madworm/Panelization.pretty](madworm/Panelization.pretty): used for mousebites on the prototype pcbs
 - [XenGi/teensy.pretty](github.com/XenGi/teensy.pretty): used as inspiration for teensy footprint
 - [XenGi/teensy_library](github.com/XenGi/teensy_library): used as inspiration for teensy symbol
+
+# Graphics credit
+- Prok Logo by Prok Modular
+- Plaits Drums Graphics by [Hannes&Elizabeth Pasqualini](papernoise.net)
+- Clap icon by [Chathura Kudahetti, LK](https://thenounproject.com/chathura/)
