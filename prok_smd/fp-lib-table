@@ -1,6 +1,6 @@
 (fp_lib_table
   (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/../external/teensy.pretty)(options "")(descr ""))
   (lib (name 4ms-footprints)(type KiCad)(uri ${KIPRJMOD}/../external/4ms-kicad-lib/4ms-footprints.pretty)(options "")(descr ""))
-  (lib (name prok_smd)(type KiCad)(uri F:/code/Prok-Drums-Hardware/prok_smd/lib_fp.pretty)(options "")(descr ""))
+  (lib (name prok_smd)(type KiCad)(uri ${KIPRJMOD}/lib_fp.pretty)(options "")(descr ""))
   (lib (name Panelization)(type KiCad)(uri ${KIPRJMOD}/../external/Panelization.pretty)(options "")(descr ""))
 )
