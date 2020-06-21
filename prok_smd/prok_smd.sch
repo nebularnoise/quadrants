@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:prok_smd-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -930,21 +929,31 @@ Wire Wire Line
 Wire Wire Line
 	4600 7350 4700 7350
 Connection ~ 4700 7350
-$Comp
-L Connector:Conn_01x03_Female J2
-U 1 1 5D1D79FB
-P 4400 7250
-F 0 "J2" H 4294 6925 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 4294 7016 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 4400 7250 50  0001 C CNN
-F 3 "~" H 4400 7250 50  0001 C CNN
-	1    4400 7250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4700 7250 4700 7150
 Wire Wire Line
 	4600 7150 4700 7150
 Wire Wire Line
-	4700 7350 4700 7550
+	4700 7350 4700 7450
+$Comp
+L Connector:Conn_01x05_Female J2
+U 1 1 5D1D79FB
+P 4400 7250
+F 0 "J2" H 4294 6925 50  0000 C CNN
+F 1 "Conn_01x05_Female" H 4294 7016 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical_SMD_Pin1Left" H 4400 7250 50  0001 C CNN
+F 3 "~" H 4400 7250 50  0001 C CNN
+	1    4400 7250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 7450 4700 7450
+Connection ~ 4700 7450
+Wire Wire Line
+	4700 7450 4700 7550
+Wire Wire Line
+	4600 7050 4700 7050
+Wire Wire Line
+	4700 7050 4700 7150
+Connection ~ 4700 7150
 $EndSCHEMATC

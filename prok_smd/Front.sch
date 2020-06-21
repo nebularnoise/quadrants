@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:prok_smd-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -730,12 +729,12 @@ Wire Wire Line
 Wire Wire Line
 	4850 1750 5000 1750
 $Comp
-L Connector:Conn_01x03_Male J17
+L Connector:Conn_01x05_Male J17
 U 1 1 5D1D7379
 P 4650 6950
 F 0 "J17" H 4623 6880 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 4623 6971 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4650 6950 50  0001 C CNN
+F 1 "Conn_01x05_Male" H 4623 6971 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4650 6950 50  0001 C CNN
 F 3 "~" H 4650 6950 50  0001 C CNN
 	1    4650 6950
 	-1   0    0    1   
@@ -745,5 +744,15 @@ Wire Wire Line
 Wire Wire Line
 	4350 6850 4450 6850
 Wire Wire Line
-	4350 7050 4350 7250
+	4350 7050 4350 7150
+Wire Wire Line
+	4450 6750 4350 6750
+Wire Wire Line
+	4350 6750 4350 6850
+Connection ~ 4350 6850
+Wire Wire Line
+	4450 7150 4350 7150
+Connection ~ 4350 7150
+Wire Wire Line
+	4350 7150 4350 7250
 $EndSCHEMATC
