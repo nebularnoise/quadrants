@@ -1,6 +1,6 @@
-# Prok-Drums-Hardware_SMD
+# Quadrants
 
-This is a skiff-friendly SMD version of the [Prok Drum Modules](https://www.thonk.co.uk/product-category/manufacturer/prok-modular/).
+Quadrants is a skiff-friendly SMD version of the [Prok Drum Modules](https://www.thonk.co.uk/product-category/manufacturer/prok-modular/).
 
 I love the Prok modules, but the 3-boards sandwich made them too deep to fit in my drum skiff. With this version, the depth is no longer about 40mm, but rather 30mm.
 
@@ -28,11 +28,9 @@ To quote the official Prok Drums page:
   - Yamaichi SD card holder
   - Alpha 9mm pots
   - rail mounting hole
-- [madworm/Panelization.pretty](madworm/Panelization.pretty): used for mousebites on the prototype pcbs
 - [XenGi/teensy.pretty](github.com/XenGi/teensy.pretty): used as inspiration for teensy footprint
 - [XenGi/teensy_library](github.com/XenGi/teensy_library): used as inspiration for teensy symbol
 
 # Graphics credit
-- Prok Logo by Prok Modular
 - Plaits Drums Graphics by [Hannes&Elizabeth Pasqualini](papernoise.net)
 - Clap icon by [Chathura Kudahetti, LK](https://thenounproject.com/chathura/)
