@@ -46,17 +46,6 @@ F 3 "" H 2900 3400 50  0001 C CNN
 	1    2900 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5D27E317
-P 7850 3150
-F 0 "#PWR0122" H 7850 2900 50  0001 C CNN
-F 1 "GND" H 7855 2977 50  0000 C CNN
-F 2 "" H 7850 3150 50  0001 C CNN
-F 3 "" H 7850 3150 50  0001 C CNN
-	1    7850 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7850 3150 7850 3100
 Wire Wire Line
@@ -160,39 +149,7 @@ F 3 "~" H 4400 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 4450 3450 4450
-Wire Wire Line
-	3750 4450 3950 4450
-Wire Wire Line
-	3300 4750 3950 4750
 Connection ~ 3300 4750
-$Comp
-L Device:D D4
-U 1 1 5D27EC25
-P 3950 4600
-F 0 "D4" V 3904 4679 50  0000 L CNN
-F 1 "D" V 3995 4679 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3950 4600 50  0001 C CNN
-F 3 "~" H 3950 4600 50  0001 C CNN
-	1    3950 4600
-	0    1    1    0   
-$EndComp
-Connection ~ 3950 4450
-Wire Wire Line
-	3950 4450 4400 4450
-Connection ~ 3950 4750
-Wire Wire Line
-	3950 4750 4400 4750
-$Comp
-L Device:D D3
-U 1 1 5D27EC77
-P 3950 4300
-F 0 "D3" V 3904 4379 50  0000 L CNN
-F 1 "D" V 3995 4379 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3950 4300 50  0001 C CNN
-F 3 "~" H 3950 4300 50  0001 C CNN
-	1    3950 4300
-	0    1    1    0   
-$EndComp
 $Comp
 L power:+3V3 #PWR0124
 U 1 1 5D27ED32
@@ -815,4 +772,36 @@ Wire Wire Line
 Connection ~ 7550 4400
 Wire Wire Line
 	7550 4400 8350 4400
+$Comp
+L Diode:BAT54S D2
+U 1 1 5EF92C59
+P 3950 4450
+F 0 "D2" V 3996 4538 50  0000 L CNN
+F 1 "BAT54S" V 3500 4150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4025 4575 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 3830 4450 50  0001 C CNN
+	1    3950 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 4750 3950 4750
+Wire Wire Line
+	3750 4450 4150 4450
+Connection ~ 3950 4750
+Wire Wire Line
+	3950 4750 4400 4750
+Connection ~ 4150 4450
+Wire Wire Line
+	4150 4450 4400 4450
+$Comp
+L power:GNDA #PWR0120
+U 1 1 5EFC6273
+P 7850 3150
+F 0 "#PWR0120" H 7850 2900 50  0001 C CNN
+F 1 "GNDA" H 7855 2977 50  0000 C CNN
+F 2 "" H 7850 3150 50  0001 C CNN
+F 3 "" H 7850 3150 50  0001 C CNN
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
