@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Prok Back Board"
+Title "Quadrants Power Board"
 Date ""
 Rev ""
 Comp "Nebularnoise"
@@ -747,7 +747,7 @@ Connection ~ 3400 5850
 $Sheet
 S 1400 1300 1250 1300
 U 5D2626DC
-F0 "Prok Front Board" 50
+F0 "Quadrants Front Board" 50
 F1 "Front.sch" 50
 $EndSheet
 Connection ~ 1050 6550
