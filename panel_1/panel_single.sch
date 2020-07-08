@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -121,4 +121,26 @@ Wire Wire Line
 Connection ~ 2500 2550
 Wire Wire Line
 	2500 2550 2650 2550
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5F06390A
+P 4175 1925
+F 0 "H7" H 4275 1974 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4275 1883 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6mm_Pad" H 4175 1925 50  0001 C CNN
+F 3 "~" H 4175 1925 50  0001 C CNN
+	1    4175 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F063910
+P 4175 2025
+F 0 "#PWR0104" H 4175 1775 50  0001 C CNN
+F 1 "GND" H 4180 1852 50  0000 C CNN
+F 2 "" H 4175 2025 50  0001 C CNN
+F 3 "" H 4175 2025 50  0001 C CNN
+	1    4175 2025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
