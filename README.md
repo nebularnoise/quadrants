@@ -27,3 +27,4 @@ The Quadrants panel uses pictograms derived from the Mutable Instruments Plaits 
 
 # Graphics credit
 - Clap icon by [Chathura Kudahetti, LK](https://thenounproject.com/chathura/), released under Public Domain license
+- Other pictograms are derived from the Mutable Instruments Plaits module, licensed under CC-by-SA 3.0
