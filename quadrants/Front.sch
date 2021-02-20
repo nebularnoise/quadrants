@@ -260,7 +260,7 @@ $EndComp
 Text GLabel 6050 1750 2    50   Input ~ 0
 RESET_SW
 $Comp
-L quadrants-rescue:R_POT-Device X1
+L quadrants-rescue:R_POT-Device-quadrants-rescue X1
 U 1 1 5D281D3E
 P 1350 2750
 F 0 "X1" H 1280 2796 50  0000 R CNN
@@ -301,7 +301,7 @@ CHANNEL_POT
 Wire Wire Line
 	1550 2750 1500 2750
 $Comp
-L quadrants-rescue:R_POT-Device Y1
+L quadrants-rescue:R_POT-Device-quadrants-rescue Y1
 U 1 1 5D282FDC
 P 1400 4250
 F 0 "Y1" H 1330 4296 50  0000 R CNN

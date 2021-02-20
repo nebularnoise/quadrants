@@ -238,7 +238,7 @@ $EndComp
 Wire Wire Line
 	8500 1100 8450 1100
 $Comp
-L quadrants-rescue:Opamp_Dual_Generic-Device U2
+L quadrants-rescue:Opamp_Dual_Generic-Device-quadrants-rescue U2
 U 2 1 5D184DA4
 P 2050 5000
 F 0 "U2" H 2050 5367 50  0000 C CNN
@@ -249,7 +249,7 @@ F 3 "~" H 2050 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quadrants-rescue:Opamp_Dual_Generic-Device U2
+L quadrants-rescue:Opamp_Dual_Generic-Device-quadrants-rescue U2
 U 3 1 5D184DD9
 P 1150 6250
 F 0 "U2" H 1150 6617 50  0000 C CNN
@@ -260,7 +260,7 @@ F 3 "~" H 1150 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quadrants-rescue:Opamp_Dual_Generic-Device U2
+L quadrants-rescue:Opamp_Dual_Generic-Device-quadrants-rescue U2
 U 1 1 5D184E43
 P 4200 5100
 F 0 "U2" H 4200 5467 50  0000 C CNN
@@ -502,7 +502,7 @@ Connection ~ 6900 5300
 Wire Wire Line
 	6900 5300 7200 5300
 $Comp
-L quadrants-rescue:CP-Device C7
+L quadrants-rescue:CP-Device-quadrants-rescue C7
 U 1 1 5D1A6D02
 P 6350 5300
 F 0 "C7" V 6605 5300 50  0000 C CNN
@@ -524,7 +524,7 @@ U 1 1 5D1AA927
 P 4850 7000
 F 0 "J1" H 4900 7417 50  0000 C CNN
 F 1 "POWER" H 4900 7326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" H 4850 7000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 4850 7000 50  0001 C CNN
 F 3 "~" H 4850 7000 50  0001 C CNN
 	1    4850 7000
 	1    0    0    1   
@@ -585,7 +585,7 @@ F 3 "" H 5950 7400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L quadrants-rescue:CP-Device C2
+L quadrants-rescue:CP-Device-quadrants-rescue C2
 U 1 1 5D1C40E6
 P 2950 6000
 F 0 "C2" H 3068 6046 50  0000 L CNN
@@ -596,7 +596,7 @@ F 3 "~" H 2950 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L quadrants-rescue:CP-Device C3
+L quadrants-rescue:CP-Device-quadrants-rescue C3
 U 1 1 5D1C4227
 P 2950 6400
 F 0 "C3" H 3068 6446 50  0000 L CNN
@@ -665,17 +665,6 @@ Connection ~ 2950 6200
 Wire Wire Line
 	2950 6200 2950 6150
 $Comp
-L quadrants-rescue:CP-Device C6
-U 1 1 5D1E98A5
-P 4250 6050
-F 0 "C6" H 4368 6096 50  0000 L CNN
-F 1 "10uF" H 4368 6005 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.9" H 4288 5900 50  0001 C CNN
-F 3 "~" H 4250 6050 50  0001 C CNN
-	1    4250 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0117
 U 1 1 5D1E98F7
 P 4550 6200
@@ -686,11 +675,6 @@ F 3 "" H 4550 6200 50  0001 C CNN
 	1    4550 6200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4550 6200 4250 6200
-Wire Wire Line
-	4250 6200 3875 6200
-Connection ~ 4250 6200
 $Comp
 L power:+5V #PWR0118
 U 1 1 5D1F6A8A
@@ -713,13 +697,6 @@ F 3 "" H 3850 5750 50  0001 C CNN
 	1    3850 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 5850 4250 5850
-Wire Wire Line
-	4250 5850 4250 5900
-Connection ~ 4250 5850
-Wire Wire Line
-	4250 5850 4200 5850
 Wire Wire Line
 	3875 6150 3875 6200
 Connection ~ 3875 6200
@@ -750,28 +727,6 @@ F 3 "~" H 4212 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 5600 4050 5600
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5EFA71F2
-P 9950 2050
-F 0 "H1" H 10050 2096 50  0000 L CNN
-F 1 "MountingHole" H 10050 2005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9950 2050 50  0001 C CNN
-F 3 "~" H 9950 2050 50  0001 C CNN
-	1    9950 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5EFA78E3
-P 9950 2375
-F 0 "H2" H 10050 2421 50  0000 L CNN
-F 1 "MountingHole" H 10050 2330 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 9950 2375 50  0001 C CNN
-F 3 "~" H 9950 2375 50  0001 C CNN
-	1    9950 2375
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Bridge_+-AA D1
 U 1 1 5F016EBA
@@ -833,10 +788,10 @@ F 3 "" H 7550 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0120
 U 1 1 60382205
 P 1875 6650
-F 0 "#PWR?" H 1875 6500 50  0001 C CNN
+F 0 "#PWR0120" H 1875 6500 50  0001 C CNN
 F 1 "+12V" H 1890 6823 50  0000 C CNN
 F 2 "" H 1875 6650 50  0001 C CNN
 F 3 "" H 1875 6650 50  0001 C CNN
@@ -844,10 +799,10 @@ F 3 "" H 1875 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-12V #PWR?
+L power:-12V #PWR0122
 U 1 1 6038293F
 P 1875 7350
-F 0 "#PWR?" H 1875 7450 50  0001 C CNN
+F 0 "#PWR0122" H 1875 7450 50  0001 C CNN
 F 1 "-12V" H 1890 7523 50  0000 C CNN
 F 2 "" H 1875 7350 50  0001 C CNN
 F 3 "" H 1875 7350 50  0001 C CNN
@@ -865,10 +820,10 @@ Connection ~ 1875 6650
 Wire Wire Line
 	1975 6950 1975 7000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0135
 U 1 1 6039FDE5
 P 1975 7000
-F 0 "#PWR?" H 1975 6750 50  0001 C CNN
+F 0 "#PWR0135" H 1975 6750 50  0001 C CNN
 F 1 "GND" V 1980 6872 50  0000 R CNN
 F 2 "" H 1975 7000 50  0001 C CNN
 F 3 "" H 1975 7000 50  0001 C CNN
@@ -880,4 +835,8 @@ Wire Wire Line
 	1975 7000 1975 7050
 Wire Wire Line
 	2950 6200 3875 6200
+Wire Wire Line
+	3875 6200 4550 6200
+Wire Wire Line
+	4200 5850 4550 5850
 $EndSCHEMATC
