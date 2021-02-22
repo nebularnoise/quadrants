@@ -524,7 +524,7 @@ U 1 1 5D1AA927
 P 4850 7000
 F 0 "J1" H 4900 7417 50  0000 C CNN
 F 1 "POWER" H 4900 7326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 4850 7000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4850 7000 50  0001 C CNN
 F 3 "~" H 4850 7000 50  0001 C CNN
 	1    4850 7000
 	1    0    0    1   
